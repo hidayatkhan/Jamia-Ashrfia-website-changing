@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Jameel Noori Nastaleeq;
+}
+
+/* navbar */
+.navbar-nav{
+	margin-right: 0;
+	padding-left: 70%;
+}
+.navbar{
+	background-color:gainsboro;
+	color: #fff ;
+	height: 10%;
+	align-items:stretch;
+	
+}
+
+
+.nav-item a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;	
+}
+nav ul li a
+{
+	float: right;
+	padding: 10px;
+}
+.nav-item a:hover{
+	color: blue !important;
+}
+
+.nav-item {
+	padding-left: 10px;
+}
+.navbar-brand{
+	color: #fff ;
+	padding-left: 10px;
+}
+#navbar button{
+	color: #fff ;
+}
+
+  .navbar-expand-lg {
+padding-left: 15px;
+align-items: right;
+}   
+.navbar{
+	padding-left: 15px;
+}
+
+/* banner */
+
+#banner-container{
+	background-color: #074241;
+	color: #fff !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#banner-row img{
+	/* max-width: 100%; */
+	height: auto;
+	display: flex;
+}
+#banner-row a{
+	background-color: #fff ;
+	color: #000 ;
+	border: none;
+	margin-left: 20px;
+	 }
+
+#banner-row h3,p{
+	  padding-top: 20px;  
+	text-align: center;
+}
+#banner-col{
+	padding-left: 20px;
+
+}
+
+#service{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#service h1{
+	margin-top: 20px;
+}
+
+#about{
+	padding-bottom: 80px;
+}
+#about h1{
+	margin-bottom: -40px;
+}
+ #about-col ul{
+	padding-top: 50px;
+	padding-left: 50px;
+    
+} 
+#about-col ul li{
+	padding-top: 15px;
+}
+/* footer */
+.mb-3{
+	padding-top: 10px;
+}
+
+@media only screen and (min-width:px)
+{
+	.navbar-brand{
+		padding-left:10px;
+	}
+}
+@media only screen and (min-width:900px)
+{
+	#banner-row img{
+		padding-top:20px;
+		margin-top: 65px;
+	}
+	.social-col{
+		width: 33%;
+	}
+
+@media (min-width: 768px)
+    {.col-md-7{
+	flex: 0 0 auto;
+    width: 50%;
+	}
+}
+}
